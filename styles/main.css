@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #5f574e; /* Wenge Brown */
+  background-color: #f3e6d8; /* eggshell */
+}
+
+article {
+  max-width: 45rem; /* 720px */
+  margin-top: 2rem; /* 32px */
+  margin-bottom: 2rem; /* 32px */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.omelette-image {
+  padding-top: 2rem; /* 32px */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem; /* 40px */
+  color: #302d2c; /* Dark Charcoal */
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  color: rgb(133, 70, 50); /* Nutmeg */
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+header p,
+.nutrition p {
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+.preparation-time {
+  background-color: #fff5fa; /* Rose White */
+  border-radius: 15px;
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+h3 {
+  margin-left: 2rem; /* 32px */
+  margin-bottom: 1rem; /* 16px */
+  padding-top: 1.5rem; /* 24px */
+  color: hsl(332, 51%, 32%); /* Dark Raspberry */
+}
+
+.preparation-time-list {
+  margin-left: 3rem; /* 48px */
+  padding-bottom: 2rem; /* 32px */
+}
+
+.preparation-time-list li,
+.ingredients-list li,
+.instructions-list li {
+  padding-left: 1.5rem;
+}
+
+.preparation-time-list li::marker {
+  color: hsl(332, 51%, 32%); /* Dark Raspberry */
+}
+
+.ingredients {
+  margin-bottom: 2rem; /* 32px */
+}
+
+.ingredients-list {
+  margin-left: 1.5rem; /* 24px */
+}
+
+.ingredients-list li::marker {
+  color: rgb(133, 70, 50); /* Nutmeg */
+}
+
+.instructions {
+  margin-bottom: 2rem; /* 32px */
+}
+
+.instructions-list {
+  margin-left: 1.5rem; /* 24px */
+}
+
+.instructions-list li::marker {
+  color: rgb(133, 70, 50); /* Nutmeg */
+  font-weight: bold;
+}
+
+.nutrition {
+  padding-bottom: 1.5rem; /* 24px */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e4ded8; /* Light Gray */
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+}
+
+.nutrients {
+  padding-left: 2rem; /* 32px */
+}
+
+.measurements {
+  padding-right: 2rem;
+  color: #854632; /* Nutmeg */
+  font-weight: bold;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+hr {
+  margin-bottom: 1.5rem; /* 24px */
+  border: none;
+  height: 2px;
+  background-color: #e4ded8; /* Light Gray */
+}
+
+li {
+  margin-bottom: 1rem; /* 16px */
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
