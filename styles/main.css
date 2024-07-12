@@ -15,78 +15,86 @@ body {
 }
 
 article {
-  max-width: 45rem; /* 720px */
-  margin-top: 2rem; /* 32px */
-  margin-bottom: 2rem; /* 32px */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 50rem; /* 800px */
+  margin: 3rem auto; /* 48px */
+  padding-left: 2rem; /* 32px */
+  padding-right: 2rem;
   background-color: #fff;
   border-radius: 30px;
 }
 
-.omelette-image {
-  padding-top: 2rem; /* 32px */
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-bottom: 1.5rem; /* 24px */
+.image-container {
+  display: inline-block;
+  margin-top: 2rem; /* 32px */
+  margin-bottom: 1.5rem;
 }
 
-img {
+.image-container img {
   width: 100%;
   border-radius: 15px;
-}
-
-main {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 h1 {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.5rem; /* 40px */
+  font-size: 2.75rem; /* 44px */
   color: #302d2c; /* Dark Charcoal */
   margin-bottom: 1.5rem; /* 24px */
 }
 
 h2 {
   font-family: "Young Serif", serif;
-  color: rgb(133, 70, 50); /* Nutmeg */
+  color: #854632; /* Nutmeg */
   margin-bottom: 1.5rem; /* 24px */
 }
 
-header p,
-.nutrition p {
+hr {
   margin-bottom: 1.5rem; /* 24px */
+  border: none;
+  height: 2px;
+  background-color: #e4ded8; /* Light Gray */
+}
+
+p {
+  margin-bottom: 1.5rem; /* 24px */
+  font-size: 1.1rem;
 }
 
 .preparation-time {
   background-color: #fff5fa; /* Rose White */
   border-radius: 15px;
   margin-bottom: 1.5rem; /* 24px */
-}
-
-h3 {
-  margin-left: 2rem; /* 32px */
-  margin-bottom: 1rem; /* 16px */
-  padding-top: 1.5rem; /* 24px */
-  color: hsl(332, 51%, 32%); /* Dark Raspberry */
-}
-
-.preparation-time-list {
-  margin-left: 3rem; /* 48px */
+  padding-top: 1.5rem;
   padding-bottom: 2rem; /* 32px */
 }
 
-.preparation-time-list li,
-.ingredients-list li,
-.instructions-list li {
-  padding-left: 1.5rem;
+.preparation-time h2 {
+  font-family: "Outfit", sans-serif;
+  margin-left: 2rem; /* 32px */
+  margin-bottom: 1rem; /* 16px */
+  color: #7b284f; /* Dark Raspberry */
+}
+
+.preparation-time-list {
+  margin-left: 3.5rem; /* 48px */
+}
+
+li {
+  padding-left: 1rem; /* 16px */
+  margin-bottom: 1rem; /* 16px */
 }
 
 .preparation-time-list li::marker {
-  color: hsl(332, 51%, 32%); /* Dark Raspberry */
+  color: #7b284f; /* Dark Raspberry */
+}
+
+.preparation-time-list li {
+  padding-left: 1.5rem; /* 24px */
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 .ingredients {
@@ -98,7 +106,7 @@ h3 {
 }
 
 .ingredients-list li::marker {
-  color: rgb(133, 70, 50); /* Nutmeg */
+  color: #854632; /* Nutmeg */
 }
 
 .instructions {
@@ -110,7 +118,7 @@ h3 {
 }
 
 .instructions-list li::marker {
-  color: rgb(133, 70, 50); /* Nutmeg */
+  color: #854632; /* Nutmeg */
   font-weight: bold;
 }
 
@@ -130,31 +138,15 @@ td {
   padding-bottom: 1rem; /* 16px */
 }
 
+tr:last-child td {
+  border-bottom: none;
+}
+
 .nutrients {
   padding-left: 2rem; /* 32px */
 }
 
 .measurements {
-  padding-right: 2rem;
+  padding-right: 2rem; /* 32px */
   color: #854632; /* Nutmeg */
-  font-weight: bold;
-}
-
-tr:last-child td {
-  border-bottom: none;
-}
-
-hr {
-  margin-bottom: 1.5rem; /* 24px */
-  border: none;
-  height: 2px;
-  background-color: #e4ded8; /* Light Gray */
-}
-
-li {
-  margin-bottom: 1rem; /* 16px */
-}
-
-li:last-child {
-  margin-bottom: 0;
 }
